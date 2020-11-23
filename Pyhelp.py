@@ -7,7 +7,7 @@ Par Xavier Gagnon
 """
 import sys
 import colorama
-from colorama import Fore, Style
+from colorama import Fore
 colorama.init()
 
 INITIALE = "XG"
@@ -22,6 +22,6 @@ def main() -> None:
         print(Fore.YELLOW,  f"USAGE: {sys.argv[0]} nombre", Fore.RESET)
         exit(1)
 
-    
+
 if __name__ == '__main__':
     main()
